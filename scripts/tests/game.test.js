@@ -1,3 +1,7 @@
+/**
+ * @jest-environment jsdom
+ */
+
 const { TestScheduler } = require("@jest/core");
 const { game, newGame, showScore, addTurn, lightsOn, showTurns } = require("../game");
 
